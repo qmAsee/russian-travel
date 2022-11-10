@@ -1,0 +1,20 @@
+.place__website_link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  transition: opacity 0.2s ease;
+}
+
+.place__website_link:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 320px) {
+  .place__website_link {
+
+    max-width: calc(100% - (16px * 2));
+  }
+}

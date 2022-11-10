@@ -1,0 +1,16 @@
+.places {
+  padding-top: 92px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding-top: 64px;
+  }
+}
