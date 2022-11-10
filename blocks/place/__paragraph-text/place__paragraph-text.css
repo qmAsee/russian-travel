@@ -1,4 +1,4 @@
-.place__paragraph_text {
+.place__paragraph-text {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -7,12 +7,12 @@
   margin: 0 0 26px 0;
 }
 
-.place__paragraph_text:last-of-type {
+.place__paragraph-text:last-of-type {
   margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragraph_text {
+  .place__paragraph-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
