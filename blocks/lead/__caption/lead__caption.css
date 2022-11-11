@@ -5,6 +5,7 @@
   letter-spacing: 0.15em;
   line-height: 14px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,9 +22,6 @@
 
 @media screen and (max-width: 320px) {
   .lead__caption {
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 0.15em;
     padding-left: 16px;
   }
 }

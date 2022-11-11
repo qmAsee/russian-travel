@@ -1,11 +1,13 @@
 .place__website-link {
-  font-family: 'Inter';
+  font-family: 'Inter',  Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
   transition: opacity 0.2s ease;
+  text-decoration: none;
+  border-bottom: solid 1px white;
 }
 
 .place__website-link:hover {
@@ -14,7 +16,6 @@
 
 @media screen and (max-width: 320px) {
   .place__website-link {
-
     max-width: calc(100% - (16px * 2));
   }
 }

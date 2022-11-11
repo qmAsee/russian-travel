@@ -2,8 +2,8 @@
   display: flex;
   margin: 32px auto 0 auto;
   max-width: 360px;
-  max-height: 66px;
-  font-family: 'Inter';
+  width: 100%;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
