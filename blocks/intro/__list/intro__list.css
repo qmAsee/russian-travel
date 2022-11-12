@@ -1,9 +1,9 @@
 .intro__list {
+  font-family: 'Inter', Arial, sans-serif;
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
   list-style-type: none;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 0.75em;
