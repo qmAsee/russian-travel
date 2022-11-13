@@ -11,10 +11,10 @@
   padding: 0;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
   .lead__title {
-    font-size: 50px;
-    line-height: 54px;
+    font-size: 45px;
+    line-height: 49px;
     max-width: 100%;
   }
 }
@@ -23,7 +23,6 @@
   .lead__title {
     box-sizing: border-box;
     max-width: 288px;
-    width: 100%;
     font-size: 40px;
     line-height: 44px;
   }

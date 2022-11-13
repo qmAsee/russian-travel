@@ -1,15 +1,25 @@
 .intro {
   color: white;
-  padding: 92px 0 0 0;
+  padding: 92px 0 0 148px;
   max-width: 690px;
-  padding-left: 148px;
-  padding-top: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-left: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     max-width: calc(100% - (16px * 2));
-    padding-left: 24px;
+    padding: 88px 0 0 24px
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 64px 0 0 16px;
   }
 }
 
